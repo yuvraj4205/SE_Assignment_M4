@@ -66,7 +66,7 @@ class StudentMarks : public Marks
 		            cout<<endl<<"Subject "<<i+1<<" : "<<marks[i];
 		        }
 		        cout<<endl<<"Total Marks : "<<Total();
-		        cout<<endl<<"Percentage : "<<setprecision(2)<<Percentage()<<"%";
+		        cout<<endl<<"Percentage : "<<fixed<<setprecision(2)<<Percentage()<<"%";
 		    }
 };
 
