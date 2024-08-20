@@ -49,7 +49,7 @@ class Batsman : public Cricketer
 			{
 				display_data();
 				cout<<endl<<"Total Runs : "<<runs;
-        		cout<<endl<<"Average Runs : "<<setprecision(2)<<average;
+        		cout<<endl<<"Average Runs : "<<fixed<<setprecision(2)<<average;
         		cout<<endl<<"Best Performance : "<<bestp;
 			}
 };
